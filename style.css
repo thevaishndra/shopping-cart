@@ -83,8 +83,10 @@ body {
 
 .bi-dash-lg {
     color: red;
+    cursor: pointer;
 }
 
 .bi-plus-lg {
     color: green;
+    cursor: pointer;
 }
