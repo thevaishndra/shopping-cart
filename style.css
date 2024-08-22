@@ -37,6 +37,10 @@ body {
     font-size: 15px;
 }
 
+i {
+    cursor: pointer;
+}
+
 .shop {
     display: grid;
     grid-template-columns: repeat(4, 223px);
