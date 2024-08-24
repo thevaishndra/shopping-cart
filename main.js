@@ -71,21 +71,25 @@ let increment = (id) => {
     else {
         search.item += 1;
     }
-    localStorage.setItem("data", JSON.stringify(basket));
+    
     // console.log(basket);
     update(selectedItem.id);
+    localStorage.setItem("data", JSON.stringify(basket));
 }
 let decrement = (id) => {
     let selectedItem = id;
     let search = basket.find((x) => x.id === selectedItem.id);
-
+    if(search.item === undefined) return;
     if (search.item === 0) return;
     else {
         search.item -= 1;
     }
-    localStorage.setItem("data", JSON.stringify(basket));
-    // console.log(basket);
     update(selectedItem.id);
+    basket = basket.filter((x) => x.item !== 0);
+    // console.log(basket);
+    
+
+    localStorage.setItem("data", JSON.stringify(basket));
 }
 let update = (id) => {
    let search = basket.find((x) => x.id === id);

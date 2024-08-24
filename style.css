@@ -8,6 +8,15 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     margin-bottom: 30px;
     display: flex;
@@ -35,10 +44,6 @@ body {
     background-color: red;
     color: white;
     font-size: 15px;
-}
-
-i {
-    cursor: pointer;
 }
 
 .shop {
