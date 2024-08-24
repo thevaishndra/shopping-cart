@@ -1,33 +1,5 @@
 let shop = document.getElementById("shop");
 
-let shopItemsData = [{
-    id: "a",
-    name: "Formal Shirt",
-    price: 45,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/shirt.jpg",
-}, 
-{
-    id: "b",
-    name: "Straight Jeans",
-    price: 50,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/jeans.jpg",
-}, 
-{
-    id: "c",
-    name: "Kurta",
-    price: 90,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/kurta.jpg",
-}, 
-{
-    id: "d",
-    name: "Dress Floral Print",
-    price: 68,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "images/dress.jpg",
-}];
 //if we have data in our basket or if we don't have data we still  want to continue our application instead of breaking
 let basket = JSON.parse(localStorage.getItem("data")) || []
 
@@ -43,7 +15,7 @@ let generateShop = () => {
                 <h3>${name}</h3>
                 <p>${desc}</p>
                 <div class="price-quantity">
-                    <h2>$ ${price}</h2>
+                    <h2>&#8377 ${price}</h2>
                     <div class="buttons">
                         <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
                         <div id=${id} class="quantity">${search.item === undefined? 0:search.item}</div>
