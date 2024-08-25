@@ -19,7 +19,7 @@ let generateCartItems = () => {
             let {img, name, price} = search;//destructuring an object
             return `
             <div class="cart-item">
-            <img width="100" height="110" src=${img} alt=""/>
+            <img width="100" height="130" src=${img} alt=""/>
             <div class="details" >
              <div class="title-price-x">
              <h4 class="title-price">
