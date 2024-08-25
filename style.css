@@ -24,6 +24,7 @@ a {
     background-color: #5c374c;
     color: white;
     padding: 20px 60px;
+    align-items: center;
 }
 
 .cart {
@@ -51,6 +52,7 @@ a {
     grid-template-columns: repeat(4, 223px);
     gap: 30px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -68,6 +70,11 @@ a {
 .item {
     border: 2px solid #5c374c;
     border-radius: 4px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
 }
 
 .details {
@@ -105,7 +112,7 @@ a {
     margin-bottom: 20px;
 }
 
-.homeBtn {
+.homeBtn, .checkout, .removeall {
     background-color: #5c374c;
     color: white;
     border: none;
@@ -113,6 +120,14 @@ a {
     border-radius: 3px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.checkout {
+    background-color: green;
+}
+
+.removeall {
+    background-color: red;
 }
 
 .bi-x-lg {
