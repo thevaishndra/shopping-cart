@@ -1,4 +1,4 @@
-Welcome to the Clothing Store Website! This project is a simple e-commerce website built using HTML, CSS, and JavaScript. It showcases a range of clothing items and provides an interactive experience for users to browse, select, and purchase items.
+Welcome to the Clothing Store Website! This project is a simple e-commerce website built using HTML, CSS, and JavaScript. It showcases a range of clothing items and provides an interactive experience for users to browse, select, and add items to cart.
 
 
 Features:-
