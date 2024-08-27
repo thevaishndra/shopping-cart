@@ -3,8 +3,6 @@ Welcome to the Clothing Store Website! This project is a simple e-commerce websi
 
 Features:-
 
--Homepage: A stylish landing page featuring featured items and promotions.
-
 -Product Catalog: A comprehensive display of clothing items with images, descriptions, and prices.
 
 -Shopping Cart: An interactive shopping cart to view and manage selected items before checkout.
