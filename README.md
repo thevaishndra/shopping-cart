@@ -1,6 +1,7 @@
 Welcome to the Clothing Store Website! This project is a simple e-commerce website built using HTML, CSS, and JavaScript. It showcases a range of clothing items and provides an interactive experience for users to browse, select, and purchase items.
 
-Features
+
+Features:-
 
 -Homepage: A stylish landing page featuring featured items and promotions.
 
@@ -12,7 +13,8 @@ Features
 
 -Responsive Design: The website is designed to be mobile-friendly and responsive.
 
-Technologies Used
+
+Technologies Used:-
 
 -HTML: Structure and content of the website.
 
@@ -20,7 +22,8 @@ Technologies Used
 
 -JavaScript: Interactive features, including shopping cart functionality.
 
-Shopping Cart Features
+
+Shopping Cart Features:-
 
 -Add Items: Users can add items to their cart from the product catalog.
 
@@ -32,7 +35,9 @@ Shopping Cart Features
 
 -Clear Cart: Option to empty the entire cart.
 
-Usage
+
+Usage:-
+
 -Viewing Products: Browse through the product catalog to view available clothing items.
 
 -Adding to Cart: Click the "Add to Cart" button on any product to include it in your shopping cart.
